@@ -1,0 +1,130 @@
+[
+  {
+    "source": "机器之心",
+    "title": "大模型 Agent 最新进展：从 Tool-use 到自主决策的演进路线图",
+    "url": "https://example.com/agent-evolution",
+    "published": "2026-07-14T03:00:00+00:00",
+    "content": "大模型 Agent 是 2026 年 AI 领域最热门的方向之一。本文梳理了从基础 Tool-use 到完全自主决策的四阶段演进路线。第一阶段：LLM + API 调用，代表是 Function Calling 和 Tool Use；第二阶段：规划+执行分离，LLM 先生成计划再逐步执行；第三阶段：多 Agent 协作，不同 Agent 承担不同角色；第四阶段：自主学习 Agent，能够从执行结果中学习并改进策略。目前业界主流在第二到第三阶段之间。文章还分析了 Agent 落地的三大挑战：幻觉控制、成本控制、安全边界。",
+    "author": "机器之心编辑部",
+    "ai_result": {
+      "score": 10,
+      "relevance_reason": "文章涵盖多个你关注的关键词，与你的兴趣高度匹配 (命中 4 个关键词)",
+      "summary": "1. 大模型 agent 是 2026 年 ai 领域最热门的方向之一。\n2. 本文梳理了从基础 tool-use 到完全自主决策的四阶段演进路线。\n3. 第一阶段：llm + api 调用，代表是 function calling 和 tool use；第二阶段：规划+执行分离，llm 先生成计划再逐步执行；第三阶段：多 agent 协作，不同 agent 承担不同角色；第四阶段：自主学习 agent，能够从执行结果中学习并改进策略。\n4. 目前业界主流在第二到第三阶段之间。",
+      "category": "技术",
+      "action": "read_now",
+      "key_takeaway": "大模型 agent 是 2026 年 ai 领域最热门的方向之一。"
+    }
+  },
+  {
+    "source": "机器之心",
+    "title": "用 Python 构建本地 RAG 系统：从零开始的完整教程",
+    "url": "https://example.com/local-rag",
+    "published": "2026-07-14T06:00:00+00:00",
+    "content": "本文手把手教你用 Python 构建一个完全本地运行的 RAG 系统。技术栈：Ollama 运行本地 LLM、ChromaDB 做向量存储、LangChain 做编排。从文档加载、文本分割、向量嵌入到检索增强生成，每一步都有详细的代码和解释。特别适合想学习 RAG 原理但不想依赖云服务的学习者。最终效果：在自己的笔记本电脑上就能跑一个能回答私有文档问题的问答系统。",
+    "author": "机器之心",
+    "ai_result": {
+      "score": 10,
+      "relevance_reason": "文章涵盖多个你关注的关键词，与你的兴趣高度匹配 (命中 4 个关键词)",
+      "summary": "1. 本文手把手教你用 python 构建一个完全本地运行的 rag 系统。\n2. 技术栈：ollama 运行本地 llm、chromadb 做向量存储、langchain 做编排。\n3. 从文档加载、文本分割、向量嵌入到检索增强生成，每一步都有详细的代码和解释。\n4. 特别适合想学习 rag 原理但不想依赖云服务的学习者。",
+      "category": "技术",
+      "action": "read_now",
+      "key_takeaway": "本文手把手教你用 python 构建一个完全本地运行的 rag 系统。"
+    }
+  },
+  {
+    "source": "Hacker News 头条",
+    "title": "Show HN: I built an open-source RAG framework in Rust",
+    "url": "https://example.com/rust-rag",
+    "published": "2026-07-14T14:00:00+00:00",
+    "content": "I've been working on a RAG framework called RustRAG for the past 6 months. It's written entirely in Rust for maximum performance. Key features: hybrid search (sparse + dense vectors), multi-modal document parsing, streaming response generation, and a plugin system for custom chunking strategies. Benchmarks show 3-5x faster indexing than Python alternatives. The entire system runs on a single machine with 16GB RAM. Would love feedback from the community!",
+    "author": "rust-dev",
+    "ai_result": {
+      "score": 5.0,
+      "relevance_reason": "文章部分涉及你的关注领域 (命中 2 个关键词)",
+      "summary": "1. i've been working on a rag framework called rustrag for the past 6 months. it's written entirely in rust for maximum performance. key features: hybrid search (sparse + dense vectors), multi-modal document parsing, streaming response generation, and a plugin system for custom chunking strategies. benchmarks show 3-5x faster indexing than python alternatives. the entire system runs on a single machine with 16gb ram. would love feedback from the community!。",
+      "category": "技术",
+      "action": "read_later",
+      "key_takeaway": ""
+    }
+  },
+  {
+    "source": "阮一峰的网络日志",
+    "title": "AI 编程助手实测：Cursor vs Copilot vs 国产工具",
+    "url": "https://example.com/ai-coding-tools",
+    "published": "2026-07-14T08:00:00+00:00",
+    "content": "最近花了两周时间深度使用了几款主流 AI 编程助手。Cursor 的代码理解能力确实领先，尤其是在大型项目重构时，它能跨文件理解上下文。GitHub Copilot 的补全速度最快，但深度不足。国产工具在中文注释和文档生成方面有独特优势。选择工具要看你的实际场景：如果是个人项目快速开发，Cursor 体验最好；如果是团队协作、代码规范要求高，Copilot 的生态整合更强。总体来看，AI 编程工具已经从'玩具'变成'生产力工具'，但人类的代码审查能力反而因此变得更加重要。",
+    "author": "阮一峰",
+    "ai_result": {
+      "score": 2.5,
+      "relevance_reason": "文章与你的兴趣领域无显著关联",
+      "summary": "",
+      "category": "综合",
+      "action": "skip",
+      "key_takeaway": ""
+    }
+  },
+  {
+    "source": "阮一峰的网络日志",
+    "title": "我如何搭建个人知识管理系统",
+    "url": "https://example.com/pkm-setup",
+    "published": "2026-07-13T12:30:00+00:00",
+    "content": "知识管理这件事我折腾了很多年。从 Evernote 到 Notion 到 Obsidian，工具换了又换，但核心问题从来不是工具。这篇分享我最终稳定下来的方案：用 Obsidian 做日常笔记（本地优先、双向链接），用 Readwise 自动同步标注，用 AI 做定期回顾和关联发现。关键原则有三条：第一，输入和输出要闭环（看了要有输出）；第二，定期回顾比存得多更重要；第三，AI 帮你发现关联，但不会替你做决定。",
+    "author": "阮一峰",
+    "ai_result": {
+      "score": 2.5,
+      "relevance_reason": "文章与你的兴趣领域无显著关联",
+      "summary": "",
+      "category": "综合",
+      "action": "skip",
+      "key_takeaway": ""
+    }
+  },
+  {
+    "source": "Hacker News 头条",
+    "title": "Bitcoin hits new all-time high amid ETF inflows",
+    "url": "https://example.com/bitcoin-ath",
+    "published": "2026-07-14T16:00:00+00:00",
+    "content": "Bitcoin surged past $150,000 today, setting a new all-time high. The rally was fueled by record inflows into spot Bitcoin ETFs, which saw $2.3 billion in net inflows over the past week alone. Analysts at JPMorgan raised their year-end target to $175,000, citing growing institutional adoption. However, some warn that the market may be overheating, with the Fear & Greed Index sitting at 'Extreme Greed' for the 12th consecutive day. Regulatory clarity from the SEC has been a major catalyst.",
+    "author": "crypto-news",
+    "ai_result": {
+      "score": 2.5,
+      "relevance_reason": "文章与你的兴趣领域无显著关联",
+      "summary": "",
+      "category": "综合",
+      "action": "skip",
+      "key_takeaway": ""
+    }
+  },
+  {
+    "source": "Python 官方博客",
+    "title": "Python 3.14 性能优化详解：JIT 编译器初探",
+    "url": "https://example.com/python314-jit",
+    "published": "2026-07-12T10:00:00+00:00",
+    "content": "Python 3.14 引入了实验性的 JIT (Just-In-Time) 编译器，这是 Python 性能优化的重大里程碑。基于 copy-and-patch 技术，JIT 编译器可以在运行时将热点代码路径编译为机器码。初步测试显示，在数值计算密集型任务上性能提升 10-25%，而在 I/O 密集型任务上提升不明显。本文详细解释了 JIT 的工作原理、启用方式和适用场景。需要注意的是，JIT 目前仍是实验性功能，建议在生产环境中谨慎使用。",
+    "author": "Python Core Team",
+    "ai_result": {
+      "score": 2.5,
+      "relevance_reason": "文章与你的兴趣领域无显著关联",
+      "summary": "",
+      "category": "综合",
+      "action": "skip",
+      "key_takeaway": ""
+    }
+  },
+  {
+    "source": "机器之心",
+    "title": "2026 年加密货币行情回顾：大起大落的一年",
+    "url": "https://example.com/crypto-2026",
+    "published": "2026-07-14T09:00:00+00:00",
+    "content": "2026 年上半年加密货币市场经历了剧烈波动。比特币年初从 10 万美元起步，三月突破 15 万新高，五月又跌回 11 万。以太坊 Layer 2 生态持续扩张，但竞争加剧导致多个 L2 项目代币价格腰斩。DeFi 总锁仓量创新高但用户增长放缓。机构方面，贝莱德和富达继续增持，但散户热度明显下降。监管方面，欧盟 MiCA 法案全面实施，美国 SEC 新主席上任后政策趋严。",
+    "author": "机器之心",
+    "ai_result": {
+      "score": 0,
+      "relevance_reason": "文章主要涉及你不感兴趣的领域",
+      "summary": "",
+      "category": "综合",
+      "action": "skip",
+      "key_takeaway": ""
+    }
+  }
+]
