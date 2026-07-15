@@ -1,0 +1,106 @@
+[
+  {
+    "source": "阮一峰的网络日志",
+    "title": "AI 编程助手实测：Cursor vs Copilot vs 国产工具",
+    "url": "https://example.com/ai-coding-tools",
+    "ai_result": {
+      "score": 8.5,
+      "relevance_reason": "AI 编程工具评测直接命中你的核心关注领域，对选择工具有实际参考价值",
+      "summary": "1. Cursor 跨文件理解能力最强，适合大型项目重构。\n2. Copilot 补全最快但深度不足。\n3. 国产工具中文文档生成是亮点。\n4. 核心观点：AI 辅助下人类代码审查能力更重要。",
+      "category": "技术",
+      "action": "read_now",
+      "key_takeaway": "AI 编程工具已是生产力工具，但人类的代码审查能力反而因此变得更重要"
+    }
+  },
+  {
+    "source": "Hacker News 头条",
+    "title": "Show HN: I built an open-source RAG framework in Rust",
+    "url": "https://example.com/rust-rag",
+    "ai_result": {
+      "score": 8.0,
+      "relevance_reason": "开源 RAG 框架，Python 替代方案，3-5x 性能提升，与大模型应用落地直接相关",
+      "summary": "1. RustRAG 是完全用 Rust 写的 RAG 框架。\n2. 支持混合检索、多模态文档解析和流式生成。\n3. 性能比 Python 方案快 3-5 倍。\n4. 16GB RAM 即可运行，适合本地部署。",
+      "category": "技术",
+      "action": "read_now",
+      "key_takeaway": "Rust 实现的 RAG 框架比 Python 快 3-5 倍，16GB 内存就能跑"
+    }
+  },
+  {
+    "source": "机器之心",
+    "title": "大模型 Agent 最新进展：从 Tool-use 到自主决策的演进路线图",
+    "url": "https://example.com/agent-evolution",
+    "ai_result": {
+      "score": 9.2,
+      "relevance_reason": "Agent 是你核心关注的 AI 方向，这篇文章给出了清晰的四阶段演进路线图，必读",
+      "summary": "1. Agent 演进四阶段：Tool-use → 规划执行 → 多 Agent 协作 → 自主学习。\n2. 当前业界在第二到第三阶段之间。\n3. 三大落地挑战：幻觉控制、成本控制、安全边界。",
+      "category": "AI",
+      "action": "read_now",
+      "key_takeaway": "Agent 落地最大挑战不是技术，而是幻觉控制、成本和安全边界的平衡"
+    }
+  },
+  {
+    "source": "机器之心",
+    "title": "用 Python 构建本地 RAG 系统：从零开始的完整教程",
+    "url": "https://example.com/local-rag",
+    "ai_result": {
+      "score": 8.8,
+      "relevance_reason": "Python + RAG 实操教程，技术栈 Ollama+ChromaDB+LangChain，与你的学习方向高度吻合",
+      "summary": "1. 用 Ollama 运行本地 LLM，无需云服务。\n2. ChromaDB 做向量存储，LangChain 做编排。\n3. 每一步都有代码和解释。\n4. 最终效果：笔记本上就能跑私有文档问答系统。",
+      "category": "AI",
+      "action": "read_now",
+      "key_takeaway": "用 Ollama + ChromaDB 可以在自己笔记本上搭建完整的本地 RAG 系统"
+    }
+  },
+  {
+    "source": "阮一峰的网络日志",
+    "title": "我如何搭建个人知识管理系统",
+    "url": "https://example.com/pkm-setup",
+    "ai_result": {
+      "score": 6.0,
+      "relevance_reason": "知识管理方法论，AI 部分涉及定期回顾和关联发现，可参考但不紧急",
+      "summary": "1. 用 Obsidian + Readwise + AI 做知识管理。\n2. 输入的阅读标注自动同步。\n3. AI 定期回顾发现笔记之间的关联。\n4. 三个原则：输入输出闭环、定期回顾、AI 辅助不做决定。",
+      "category": "效率",
+      "action": "read_later",
+      "key_takeaway": ""
+    }
+  },
+  {
+    "source": "Python 官方博客",
+    "title": "Python 3.14 性能优化详解：JIT 编译器初探",
+    "url": "https://example.com/python314-jit",
+    "ai_result": {
+      "score": 5.5,
+      "relevance_reason": "Python 语言层面更新，JIT 编译器是重要特性但与你的应用层关注点有一定距离",
+      "summary": "1. Python 3.14 引入实验性 JIT 编译器。\n2. 基于 copy-and-patch 技术。\n3. 数值计算密集型任务性能提升 10-25%。\n4. 目前仍是实验性功能，不建议生产使用。",
+      "category": "技术",
+      "action": "read_later",
+      "key_takeaway": ""
+    }
+  },
+  {
+    "source": "Hacker News 头条",
+    "title": "Bitcoin hits new all-time high amid ETF inflows",
+    "url": "https://example.com/bitcoin-ath",
+    "ai_result": {
+      "score": 1.0,
+      "relevance_reason": "加密货币行情新闻，与你的兴趣领域无关",
+      "summary": "",
+      "category": "无关",
+      "action": "skip",
+      "key_takeaway": ""
+    }
+  },
+  {
+    "source": "机器之心",
+    "title": "2026 年加密货币行情回顾：大起大落的一年",
+    "url": "https://example.com/crypto-2026",
+    "ai_result": {
+      "score": 0.5,
+      "relevance_reason": "加密货币回顾文章，主要涉及你不感兴趣的领域",
+      "summary": "",
+      "category": "无关",
+      "action": "skip",
+      "key_takeaway": ""
+    }
+  }
+]
