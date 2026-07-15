@@ -1,0 +1,78 @@
+# ============================================================
+# AI 信息筛选器 — 订阅源与兴趣配置
+# ============================================================
+
+# ---- 信息源列表 ----
+sources:
+  - name: "阮一峰的网络日志"
+    url: "https://feeds.feedburner.com/ruanyifeng"
+    type: rss
+    enabled: true
+
+  - name: "Hacker News 头条"
+    url: "https://hnrss.org/frontpage"
+    type: rss
+    enabled: true
+
+  - name: "机器之心"
+    url: "https://jiqizhixin.com/rss"
+    type: rss
+    enabled: true
+
+  - name: "Python 官方博客"
+    url: "https://blog.python.org/feeds/posts/default"
+    type: rss
+    enabled: false  # 默认关闭，按需开启
+
+  - name: "GitHub Trending 日报"
+    url: "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml"
+    type: rss
+    enabled: false
+
+# ---- 用户兴趣画像 ----
+# 请根据你的实际情况修改以下内容
+profile:
+  # 正向关键词：文章正文命中越多越可能推给你
+  keywords:
+    - "AI"
+    - "大模型"
+    - "LLM"
+    - "Agent"
+    - "RAG"
+    - "Python"
+    - "数据分析"
+    - "开源"
+    - "机器学习"
+    - "深度学习"
+    - "NLP"
+    - "Prompt"
+    - "自动化"
+
+  # 自然语言描述的兴趣领域（AI 会做语义理解）
+  interests: >
+    我是一名大数据专业学生，关注 AI Agent 开发、大模型应用落地、
+    RAG 技术、开源工具、Python 开发效率、数据分析方法。
+    喜欢看技术深度文章和实践教程，对学术论文也有兴趣。
+
+  # 反关键词：明确不想看的内容（AI 会降低评分）
+  anti_keywords:
+    - "区块链"
+    - "加密货币"
+    - "NFT"
+    - "Web3"
+    - "炒币"
+    - "元宇宙"
+
+  # 每日推送上限（避免信息焦虑）
+  daily_limit: 10
+
+# ---- LLM 配置 ----
+# 用于真实 AI 筛选（可选，不配置则使用模拟模式）
+llm:
+  # 推荐使用 OpenAI 兼容 API，也可以使用本地模型
+  provider: "openai"        # openai | local | custom
+  model: "gpt-4o-mini"      # 推荐轻量模型，性价比高
+  # api_key 通过环境变量 OPENAI_API_KEY 传入
+  # api_base 通过环境变量 OPENAI_API_BASE 传入（如需代理）
+  max_tokens_per_article: 500
+  temperature: 0.3           # 低温度保证评分一致性
